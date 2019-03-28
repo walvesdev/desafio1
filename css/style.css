@@ -1,0 +1,56 @@
+html, body{
+    height: 100%;
+ }
+
+body{
+    background-color: #333;
+    background: url('../img/background.jpg') no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: #ccc;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+
+header{
+    text-align: center;
+    padding: 2em;
+}
+
+.icon {
+    width:200px;
+}
+
+li{
+    margin-bottom: 1em;
+    float: left;
+}
+.cs1{
+    margin-top: 0;
+    width: 25%;
+    float: right;
+}
+
+.cs2{
+    width: 75%;
+    float: left;
+}
+@media (max-width: 800px) { 
+    .cs1{
+        margin-top: 0;
+        margin: 10% 20%;
+        width: auto;
+        float: left;
+    }
+    
+    .cs2{
+        width: auto;
+        margin: 0;
+    }
+}
